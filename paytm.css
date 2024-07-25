@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+/* Navbar css */
+
+.navbar{
+    margin-top: 2%;
+}
+
+.navbar a{
+    padding: 1%;
+    margin-left: 2%;
+    padding-top: 3%;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: #00baf2;
+    padding: 1%;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 1%;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+}
+
+/* Wallet css */
+.wallet{
+    background-color: #f8f6f6;
+    padding: 1%;
+    text-align: center;
+}
+
+/* section2 css */
+
+.sec2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+
+}
+
+.sec2one{
+    margin-left: 6%;
+
+}
+
+.sec2one img{
+    width: 15%;
+    margin-left: 3%;
+
+}
+.sec2one h1{
+    margin-top: 5%;
+    font-size: 54px;
+}
+
+.sec2one p{
+    margin-top: 5%;
+    font-size: 25px;
+
+}
+
+.btn2{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 2%;
+    font-weight: bold;
+    margin-top: 6%;
+    font-size: 18px;
+}
+
+.btn2:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+/*  section3 css */
+
+
+.sec3{
+    background-color: #51c1ed;
+}
+
+.sec3 h1{
+    font-weight: bold;
+    color: white;
+    margin-left: 3%;
+    padding-top: 2%;
+    font-size: 37px;
+
+}
+
+.sec4 h1{
+    font-weight: bold;
+    color: white;
+    margin-left: 3%;
+    padding-top: 3%;
+    font-size: 37px;
+
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3.6%;
+    padding: 2%;
+    /* padding-bottom: 7%; */
+}
+
+.icons div p{
+    color: white;
+    width: 6%;
+    font-size: 19px;
+    font-weight: bold;
+    /* border: 2px solid #51c1ed; */
+}
+
+.sec5{
+    background-color: #f5f5f5;
+    padding: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sec5one{
+    width: 45%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.sec5one h1{
+    font-size: 40px;
+    margin-top: 4%;
+    margin-bottom: 6%;
+
+}
+
+.sec5one small{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sec5one .card{
+    width: 90%;
+    margin-top: 4%;
+
+}
+
+.head{
+    margin-left: 10%;
+    width: 35%;
+    margin-top: 3%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sec6{
+    padding: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 3%;
+    margin-top: -2%;
+
+}
+
+.sec6one{
+    width: 45%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec6one h1{
+    font-size: 30px;
+    margin-top: 8%;
+    margin-bottom: 6%;
+
+}
+
+.sec6one small{
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+.sec6one button{
+    width: 35%;
+    border: none;
+    background-color: white;
+    margin-top: 6%;
+    margin-left: -2%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sec7{
+    background-image: url(./images/33.png);
+    background-size: cover;
+    background-color: #f5f5f5;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    /* padding-bottom: 7%; */
+}
+
+.sec7one{
+    width: 90%;
+    
+}
+
+.sec7one img{
+    padding-top: 4%;
+    padding-bottom: 9%;
+    margin-left: 28%;
+    margin-top: 7%;
+}
+
+.sec7two{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.sec7two img{
+    margin-top: 8%;
+    
+}
+
+.sec7two p{
+    font-size: 40px;
+    font-weight: 700;
+    width: 47%;
+    margin-top: 6%;
+
+}
+
+.sec7two small{
+    font-size: larger;
+    width: 65%;
+    margin-top: 3%;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+
+.sec7two button{
+    width: 23%;
+    padding: 1.7%;
+    border-radius: 25px;
+    background-color: #002970;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 3%;
+}
